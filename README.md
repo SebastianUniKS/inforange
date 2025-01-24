@@ -1,1 +1,1 @@
-# inforange
+# Inforange UoK - GPS
