@@ -62,8 +62,9 @@ def getGPSdata(startDate, endDate):
         response = requests.get(url, headers=headers, params=params, files=files, timeout=10)
         #response.raise_for_status()
         print(response.json())
+        return response.json()
         
     except ConnectionError as e:
         print(f"Connection error: {e}")
 
-getGPSdata(startDate, endDate)
+#getGPSdata(startDate, endDate)
